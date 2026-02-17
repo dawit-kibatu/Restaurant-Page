@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+#content{
+    display: grid;
+    grid:repeat(22,1fr)/repeat(12,1fr) ;
+    overflow: scroll;
+}
+#content>div{
+    border: solid red;
+}
+#bigImage{
+    grid-column: 1/13;
+    height: 100vh;
+    grid-row: 1/5;
+}
+#infoDiv{
+    grid-column: 1/13;
+    grid-row: 5/7;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+#infoDiv>div{
+    border: solid black;    
+    height: 150px;
+    width: 150px;
+}
+#forest{
+    grid-column: 1/13;
+    grid-row:7/12;
+}
+#deers{
+    grid-column: 1/13;
+    grid-row:12/17;
+}
+#inn{
+    grid-column: 1/13;
+    grid-row: 17/22;
+}
+#footer{
+    grid-column: 1/13;
+    grid-row:22/23;
+}
