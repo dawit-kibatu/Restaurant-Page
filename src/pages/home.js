@@ -17,7 +17,13 @@ let home=function(){
     slideContainer.appendChild(slide2);
     slideContainer.appendChild(slide3);
     slideContainer.appendChild(slide4);
-    bigImage.appendChild(slideContainer)
+    bigImage.appendChild(slideContainer);
+    let forestText=document.createElement("div");
+    let forestImg=document.createElement("div");
+    forestText.id="forestTxt"
+    forestImg.id="forestImg";
+    forest.appendChild(forestText);
+    forest.appendChild(forestImg);
     let infoDiv=document.createElement("div")
     let location=document.createElement("div");
     let hours=document.createElement("div");
@@ -30,7 +36,19 @@ let home=function(){
     infoDiv.appendChild(contact);
     infoDiv.id="infoDiv";
     let deers=document.createElement("div");
+    let deersText=document.createElement("div");
+    let deersImg=document.createElement("div");
+    deersText.id="deersTxt"
+    deersImg.id="deersImg";
+    deers.appendChild(deersText);
+    deers.appendChild(deersImg);
     let inn=document.createElement("div");
+    let innText=document.createElement("div");
+    let innImg=document.createElement("div");
+    innText.id="innTxt"
+    innImg.id="innImg";
+    inn.appendChild(innText);
+    inn.appendChild(innImg);
     forest.id="forest";
     deers.id="deers";
     inn.id="inn";

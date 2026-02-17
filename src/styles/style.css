@@ -39,6 +39,11 @@ body{
     grid-column: 1/13;
     grid-row:7/12;
 }
+#forest,#deers,#inn{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid black;
+}
 #deers{
     grid-column: 1/13;
     grid-row:12/17;
@@ -86,4 +91,19 @@ body{
     25% { transform: translateX(0); }   
     35% { transform: translateX(-100%); } 
     100% { transform: translateX(-100%); }
+}
+#forest>div,#deers>div,#inn>div{
+  height: 100%;
+  border: solid black;
+}
+#forestTxt,#deersTxt,#innTxt{
+    background-color:yellow;
+    border: solid black;
+    width: 35%;
+}
+#forestImg,#deersImg,#innImg{
+    width: 65%;
+}
+#deersTxt{
+    order: 1;
 }
