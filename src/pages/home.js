@@ -4,6 +4,20 @@ let home=function(){
     let forest=document.createElement("div");
     let bigImage=document.createElement("div");
     bigImage.id="bigImage";
+    let slideContainer=document.createElement("div");
+    let slide1=document.createElement("div");
+    let slide2=document.createElement("div");
+    let slide3=document.createElement("div");
+    let slide4=document.createElement("div");
+    slide1.classList.add("slide","slide1")
+    slide2.classList.add("slide","slide2")
+    slide3.classList.add("slide","slide3")
+    slide4.classList.add("slide","slide4")
+    slideContainer.appendChild(slide1);
+    slideContainer.appendChild(slide2);
+    slideContainer.appendChild(slide3);
+    slideContainer.appendChild(slide4);
+    bigImage.appendChild(slideContainer)
     let infoDiv=document.createElement("div")
     let location=document.createElement("div");
     let hours=document.createElement("div");
