@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-image: url("../images/99Y_8dk74qbjehmm2sqv60o38.jpg");
 }
 /* nav{
     position:sticky;
@@ -13,12 +14,14 @@ body{
     /* border: solid red; */
 }
 #bigImage {
-    grid-column: 1/13;
+    grid-column: 2/12;
     height: 100vh;
     grid-row: 1/5;
     position: relative;
     overflow: hidden;
     white-space: nowrap;
+    display: flex;
+    justify-content: center;
 }
 #infoDiv {
     grid-column: 1/13;
@@ -69,19 +72,19 @@ body{
 }
 
 .slide1 { 
-    background-image: url("../images/Old_Mossy_Horns-Whitetail_Deer.jpg");
+    background-image: url("../images/pexels-basnetsurendra7-12367499.jpg");
     animation-delay: 0s;
 }
 .slide2 { 
-    background-image: url("../images/meat1.jpg");
+    background-image: url("../images/pexels-bala-12444402.jpg");
     animation-delay: 3s;
 }
 .slide3 { 
-    background-image: url("../images/meat2.jpg");
+    background-image: url("../images/pexels-elina-sazonova-4403903.jpg");
     animation-delay: 6s;
 }
 .slide4 { 
-    background-image: url("../images/stake.jpg");
+    background-image: url("../images/pexels-tomas-malik-793526-3408348.jpg");
     animation-delay: 9s;
 }
 
@@ -97,13 +100,42 @@ body{
   border: solid black;
 }
 #forestTxt,#deersTxt,#innTxt{
-    background-color:yellow;
+    background-color:white;
     border: solid black;
     width: 35%;
+    padding: 2%;
+}
+#forestImg{
+    background-image: url("../images/johannes-andersson-UCd78vfC8vU-unsplash.jpg");
+    background-size: cover;
 }
 #forestImg,#deersImg,#innImg{
     width: 65%;
 }
 #deersTxt{
     order: 1;
+}
+#deersImg{
+    background-image: url("../images/pexels-karolina-wv-20194713-6929329.jpg");
+    background-size:contain;
+}
+#innImg{
+    background-image: url("../images/pexels-cmonphotography-1809647.jpg");
+    background-size:cover ;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: 'Vintage';
+    src: url('../fonts/Vintage\ Propagandist.ttf');
+}
+#name{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-family:'Vintage','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 5rem;
 }
