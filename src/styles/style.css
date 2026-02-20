@@ -101,13 +101,13 @@ nav{
     animation-delay: 9s;
 }
 
-@keyframes sideshow {
+/* @keyframes sideshow {
     0% { transform: translateX(100%); }
     10% { transform: translateX(0); }   
     25% { transform: translateX(0); }   
     35% { transform: translateX(-100%); } 
     100% { transform: translateX(-100%); }
-}
+} */
 #forest>div,#deers>div,#inn>div{
   height: 100%;
  
