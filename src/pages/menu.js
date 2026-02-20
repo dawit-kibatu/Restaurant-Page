@@ -217,5 +217,15 @@ content.appendChild(mainCourse);
 content.appendChild(sideDish);
 content.appendChild(drinks);
 content.appendChild(dessert);
+let footer=document.createElement("div");
+footer.id="footer";
+footer.innerHTML=`Made by  <a href="https://github.com/dawit-kibatu">Dawit Kibatu</a>`
+footer.style.cssText=`
+    #footer{
+    grid-column:1/13 ;
+    grid-row:11/13;
+    border-top:solid gray;
+     }`
+content.appendChild(footer)
 }
 export default menu

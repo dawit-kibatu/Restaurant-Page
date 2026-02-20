@@ -1,6 +1,7 @@
 import "../styles/style.css";
 let home=function(){
     let content=document.querySelector("#content");
+    content.innerHTML="";
     let forest=document.createElement("div");
     let bigImage=document.createElement("div");
     bigImage.id="bigImage";
