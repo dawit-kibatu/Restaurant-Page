@@ -1,63 +1,76 @@
 body{
     margin: 0px;
-    background-image: url("../images/99Y_8dk74qbjehmm2sqv60o38.jpg");
+    font-family:'Vintage','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
-/* nav{
-    position:sticky;
-} */
+nav{
+    /* height: 10vh; */
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
 #content{
     display: grid;
-    grid:repeat(22,1fr)/repeat(12,1fr) ;
-    overflow: auto;
+    grid:repeat(12,1fr)/repeat(12,1fr) ;
+    /* overflow: auto; */
 }
 #content>div{
     /* border: solid red; */
 }
 #bigImage {
-    grid-column: 2/12;
-    height: 100vh;
+    grid-column: 1/13;
+    /* height: 150vh; */
     grid-row: 1/5;
     position: relative;
     overflow: hidden;
-    white-space: nowrap;
     display: flex;
     justify-content: center;
+    border-bottom: solid gray;
+    margin-bottom: 0px;
+    background-color: white;
 }
 #infoDiv {
     grid-column: 1/13;
-    grid-row: 5/7;
+    grid-row: 5/6;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 4rem;
     align-items: center;
+    padding: 0px;
+    border-bottom: solid gray;
+    background-color: white;
 }
 #infoDiv > div {
-    border: solid black;
     width: clamp(150px, 20vw, 250px);
     aspect-ratio: 4/3;
     min-width: 100px;
 }
 #forest{
     grid-column: 1/13;
-    grid-row:7/12;
+    grid-row:6/10;
 }
 #forest,#deers,#inn{
     display: flex;
     justify-content: space-evenly;
-    border: solid black;
+    border-bottom: solid gray;
 }
 #deers{
     grid-column: 1/13;
-    grid-row:12/17;
+    grid-row:10/13;
 }
 #inn{
     grid-column: 1/13;
-    grid-row: 17/22;
+    grid-row: 13/16;
 }
 #footer{
     grid-column: 1/13;
-    grid-row:22/23;
+    grid-row:16/18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    
 }
 .slide {
     position: absolute;
@@ -97,11 +110,10 @@ body{
 }
 #forest>div,#deers>div,#inn>div{
   height: 100%;
-  border: solid black;
+ 
 }
 #forestTxt,#deersTxt,#innTxt{
     background-color:white;
-    border: solid black;
     width: 35%;
     padding: 2%;
 }
@@ -117,7 +129,7 @@ body{
 }
 #deersImg{
     background-image: url("../images/pexels-karolina-wv-20194713-6929329.jpg");
-    background-size:contain;
+    background-size:cover;
 }
 #innImg{
     background-image: url("../images/pexels-cmonphotography-1809647.jpg");
@@ -138,4 +150,7 @@ nav{
     font-family:'Vintage','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-size: 5rem;
+}
+a{
+    color: black;
 }
