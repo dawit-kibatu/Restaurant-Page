@@ -5,6 +5,8 @@ let home=function(){
     let forest=document.createElement("div");
     let bigImage=document.createElement("div");
     bigImage.id="bigImage";
+    content.style.cssText=`
+    grid: repeat(auto-fit,minmax(100px,200px))/repeat(auto-fit,1fr);`
     let forestText=document.createElement("div");
     let forestImg=document.createElement("div");
     forestText.id="forestTxt";

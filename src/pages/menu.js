@@ -20,6 +20,8 @@ import drink_6 from "../images/pexels-kowalievska-1187766.jpg";
 
 let menu=function(){
    let content = document.querySelector("#content");
+   content.style.cssText=`
+   grid: repeat(3,minmax(100px,200px))/repeat(2,1fr);`
    content.innerHTML = ""
    let mainCourse = document.createElement("div");
    let sideDish = document.createElement("div");

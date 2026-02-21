@@ -5,11 +5,12 @@ body{
 }
 #content{
     display: grid;
-    grid: repeat(3,minmax(100px,200px))/repeat(2,1fr);
+    grid: repeat(auto-fit,minmax(100px,200px))/repeat(auto-fit,1fr);
 }
 #main{
     grid-column: 1/13;
     grid-row: 1/4;
+    padding-top: 7%;
 }
 #side{
     grid-column: 1/13;
