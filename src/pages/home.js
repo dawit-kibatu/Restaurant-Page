@@ -64,7 +64,7 @@ let home=function(){
     footer.innerHTML=`Made by  <a href="https://github.com/dawit-kibatu">Dawit Kibatu</a>`
     let resturantName=document.createElement("div");
     resturantName.id="name"
-    resturantName.textContent="Resturant's Name";
+    resturantName.textContent="The Bent Limb";
     bigImage.appendChild(resturantName);
     content.appendChild(bigImage);
     content.appendChild(infoDiv)
