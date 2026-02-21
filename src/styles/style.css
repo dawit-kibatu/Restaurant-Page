@@ -78,42 +78,6 @@ nav{
     padding-top: 1rem;
     
 }
-.slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    transform: translateX(100%);
-    animation: sideshow 12s infinite;
-}
-
-.slide1 { 
-    background-image: url("../images/pexels-basnetsurendra7-12367499.jpg");
-    animation-delay: 0s;
-}
-.slide2 { 
-    background-image: url("../images/pexels-bala-12444402.jpg");
-    animation-delay: 3s;
-}
-.slide3 { 
-    background-image: url("../images/pexels-elina-sazonova-4403903.jpg");
-    animation-delay: 6s;
-}
-.slide4 { 
-    background-image: url("../images/pexels-tomas-malik-793526-3408348.jpg");
-    animation-delay: 9s;
-}
-
-/* @keyframes sideshow {
-    0% { transform: translateX(100%); }
-    10% { transform: translateX(0); }   
-    25% { transform: translateX(0); }   
-    35% { transform: translateX(-100%); } 
-    100% { transform: translateX(-100%); }
-} */
 #forest>div,#deers>div,#inn>div{
   height: 100%;
  
